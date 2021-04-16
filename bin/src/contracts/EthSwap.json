@@ -1,0 +1,230 @@
+{
+    "contractName": "EthSwap",
+    "abi": [
+        {
+            "inputs": [],
+            "stateMutability": "nonpayable",
+            "type": "constructor"
+        },
+        {
+            "inputs": [],
+            "name": "name",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "token",
+            "outputs": [
+                {
+                    "internalType": "contract Token",
+                    "name": "",
+                    "type": "address"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.3+commit.8d00100c\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"token\",\"outputs\":[{\"internalType\":\"contract Token\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/filipilic/Documents/Blockchain/Eth-Swap/src/contracts/EthSwap.sol\":\"EthSwap\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/filipilic/Documents/Blockchain/Eth-Swap/src/contracts/EthSwap.sol\":{\"keccak256\":\"0x284e0abde635ec919f66d6333c186391633bf0d2c26470db922b78a99d954027\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://a45f28010da2fa21ea26569871da067082039810e36a2705e0176f9cbc475176\",\"dweb:/ipfs/QmcQwJJP48j7CJKrgXfrNdw5iGbXYJsyxgs6xHvJL927TE\"]},\"/Users/filipilic/Documents/Blockchain/Eth-Swap/src/contracts/Token.sol\":{\"keccak256\":\"0xca7303d26d77e8839c26b5e97f10e1dfec895c5decae2679d867e108fff69242\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://81aed8f0d5f0d5a9d97fa228e29b263f1217248ab5bd037f5181e2093b448974\",\"dweb:/ipfs/QmYKhA2oGmt31hHboThzYhtrqMabGpd4RxTKdb2J3WjptR\"]}},\"version\":1}",
+    "bytecode": "60c0604052601860808190527f4574685377617020496e7374616e742045786368616e6765000000000000000060a090815261003e9160009190610051565b5034801561004b57600080fd5b50610125565b82805461005d906100ea565b90600052602060002090601f01602090048101928261007f57600085556100c5565b82601f1061009857805160ff19168380011785556100c5565b828001600101855582156100c5579182015b828111156100c55782518255916020019190600101906100aa565b506100d19291506100d5565b5090565b5b808211156100d157600081556001016100d6565b600181811c908216806100fe57607f821691505b6020821081141561011f57634e487b7160e01b600052602260045260246000fd5b50919050565b6101d6806101346000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c806306fdde031461003b578063fc0c546a14610059575b600080fd5b610043610084565b6040516100509190610112565b60405180910390f35b60015461006c906001600160a01b031681565b6040516001600160a01b039091168152602001610050565b6000805461009190610165565b80601f01602080910402602001604051908101604052809291908181526020018280546100bd90610165565b801561010a5780601f106100df5761010080835404028352916020019161010a565b820191906000526020600020905b8154815290600101906020018083116100ed57829003601f168201915b505050505081565b6000602080835283518082850152825b8181101561013e57858101830151858201604001528201610122565b8181111561014f5783604083870101525b50601f01601f1916929092016040019392505050565b600181811c9082168061017957607f821691505b6020821081141561019a57634e487b7160e01b600052602260045260246000fd5b5091905056fea2646970667358221220590d13ed235aaed58508d699906d4f9b82375d00df9d32c3b1e532a58f8fa88564736f6c63430008030033",
+    "deployedBytecode": "608060405234801561001057600080fd5b50600436106100365760003560e01c806306fdde031461003b578063fc0c546a14610059575b600080fd5b610043610084565b6040516100509190610112565b60405180910390f35b60015461006c906001600160a01b031681565b6040516001600160a01b039091168152602001610050565b6000805461009190610165565b80601f01602080910402602001604051908101604052809291908181526020018280546100bd90610165565b801561010a5780601f106100df5761010080835404028352916020019161010a565b820191906000526020600020905b8154815290600101906020018083116100ed57829003601f168201915b505050505081565b6000602080835283518082850152825b8181101561013e57858101830151858201604001528201610122565b8181111561014f5783604083870101525b50601f01601f1916929092016040019392505050565b600181811c9082168061017957607f821691505b6020821081141561019a57634e487b7160e01b600052602260045260246000fd5b5091905056fea2646970667358221220590d13ed235aaed58508d699906d4f9b82375d00df9d32c3b1e532a58f8fa88564736f6c63430008030033",
+    "sourceMap": "104:47:0:-:0;81:126;104:47;;81:126;104:47;;;;;;;;;;-1:-1:-1;;104:47:0;;:::i;:::-;;182:23;;;;;;;;;;81:126;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;81:126:0;;;-1:-1:-1;81:126:0;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;14:380:2;93:1;89:12;;;;136;;;157:2;;211:4;203:6;199:17;189:27;;157:2;264;256:6;253:14;233:18;230:38;227:2;;;310:10;305:3;301:20;298:1;291:31;345:4;342:1;335:15;373:4;370:1;363:15;227:2;;69:325;;;:::o;:::-;81:126:0;;;;;;",
+    "deployedSourceMap": "81:126:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;104:47;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;157:18;;;;;-1:-1:-1;;;;;157:18:0;;;;;;-1:-1:-1;;;;;191:32:2;;;173:51;;161:2;146:18;157::0;128:102:2;104:47:0;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;235:603:2:-;;376:2;405;394:9;387:21;437:6;431:13;480:6;475:2;464:9;460:18;453:34;505:4;518:140;532:6;529:1;526:13;518:140;;;627:14;;;623:23;;617:30;593:17;;;612:2;589:26;582:66;547:10;;518:140;;;676:6;673:1;670:13;667:2;;;746:4;741:2;732:6;721:9;717:22;713:31;706:45;667:2;-1:-1:-1;822:2:2;801:15;-1:-1:-1;;797:29:2;782:45;;;;829:2;778:54;;356:482;-1:-1:-1;;;356:482:2:o;843:380::-;922:1;918:12;;;;965;;;986:2;;1040:4;1032:6;1028:17;1018:27;;986:2;1093;1085:6;1082:14;1062:18;1059:38;1056:2;;;1139:10;1134:3;1130:20;1127:1;1120:31;1174:4;1171:1;1164:15;1202:4;1199:1;1192:15;1056:2;;898:325;;;:::o",
+    "sourcePath": "/Users/filipilic/Documents/Blockchain/Eth-Swap/src/contracts/EthSwap.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.3+commit.8d00100c"
+    },
+    "ast": {
+        "absolutePath": "/Users/filipilic/Documents/Blockchain/Eth-Swap/src/contracts/EthSwap.sol",
+        "exportedSymbols": {
+            "EthSwap": [
+                13
+            ],
+            "Token": [
+                194
+            ]
+        },
+        "id": 14,
+        "license": "MIT",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    ">=",
+                    "0.5",
+                    ".0"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "32:24:0"
+            },
+            {
+                "absolutePath": "/Users/filipilic/Documents/Blockchain/Eth-Swap/src/contracts/Token.sol",
+                "file": "./Token.sol",
+                "id": 2,
+                "nameLocation": "-1:-1:-1",
+                "nodeType": "ImportDirective",
+                "scope": 14,
+                "sourceUnit": 195,
+                "src": "58:21:0",
+                "symbolAliases": [],
+                "unitAlias": ""
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 13,
+                "linearizedBaseContracts": [
+                    13
+                ],
+                "name": "EthSwap",
+                "nameLocation": "90:7:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "constant": false,
+                        "functionSelector": "06fdde03",
+                        "id": 5,
+                        "mutability": "mutable",
+                        "name": "name",
+                        "nameLocation": "118:4:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 13,
+                        "src": "104:47:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_string_storage",
+                            "typeString": "string"
+                        },
+                        "typeName": {
+                            "id": 3,
+                            "name": "string",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "104:6:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_string_storage_ptr",
+                                "typeString": "string"
+                            }
+                        },
+                        "value": {
+                            "hexValue": "4574685377617020496e7374616e742045786368616e6765",
+                            "id": 4,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "string",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "125:26:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_stringliteral_0cd767832a4b45e13c98bb05545343ab53826a9ea9075205b12bb04a1062f40e",
+                                "typeString": "literal_string \"EthSwap Instant Exchange\""
+                            },
+                            "value": "EthSwap Instant Exchange"
+                        },
+                        "visibility": "public"
+                    },
+                    {
+                        "constant": false,
+                        "functionSelector": "fc0c546a",
+                        "id": 8,
+                        "mutability": "mutable",
+                        "name": "token",
+                        "nameLocation": "170:5:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 13,
+                        "src": "157:18:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_contract$_Token_$194",
+                            "typeString": "contract Token"
+                        },
+                        "typeName": {
+                            "id": 7,
+                            "nodeType": "UserDefinedTypeName",
+                            "pathNode": {
+                                "id": 6,
+                                "name": "Token",
+                                "nodeType": "IdentifierPath",
+                                "referencedDeclaration": 194,
+                                "src": "157:5:0"
+                            },
+                            "referencedDeclaration": 194,
+                            "src": "157:5:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_contract$_Token_$194",
+                                "typeString": "contract Token"
+                            }
+                        },
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 11,
+                            "nodeType": "Block",
+                            "src": "203:2:0",
+                            "statements": []
+                        },
+                        "id": 12,
+                        "implemented": true,
+                        "kind": "constructor",
+                        "modifiers": [],
+                        "name": "",
+                        "nameLocation": "-1:-1:-1",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 9,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "193:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 10,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "203:0:0"
+                        },
+                        "scope": 13,
+                        "src": "182:23:0",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 14,
+                "src": "81:126:0"
+            }
+        ],
+        "src": "32:176:0"
+    },
+    "functionHashes": {
+        "name()": "06fdde03",
+        "token()": "fc0c546a"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "94000",
+            "executionCost": "infinite",
+            "totalCost": "infinite"
+        },
+        "external": {
+            "name()": "infinite",
+            "token()": "1037"
+        }
+    }
+}
